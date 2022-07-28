@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testkatalon,Chrome 103.0.5060.134,,,2022-07-28 08:10:08,2022-07-28 08:10:46,37.400s,PASSED
+,,,,,,,
+Test Cases/BookAppoinment,Chrome 103.0.5060.134,,,2022-07-28 08:10:09,2022-07-28 08:10:34,25.340s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-07-28 08:10:10,2022-07-28 08:10:15,5.370s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 103.0.5060.134,,,2022-07-28 08:10:15,2022-07-28 08:10:19,3.845s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:19,2022-07-28 08:10:20,1.233s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 103.0.5060.134,,,2022-07-28 08:10:20,2022-07-28 08:10:21,1.050s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 103.0.5060.134,,,2022-07-28 08:10:21,2022-07-28 08:10:22,0.836s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:22,2022-07-28 08:10:24,1.382s,PASSED
+"if (selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true) == true)",Chrome 103.0.5060.134,,,2022-07-28 08:10:24,2022-07-28 08:10:25,1.372s,PASSED
+else,Chrome 103.0.5060.134,,,2022-07-28 08:10:25,2022-07-28 08:10:26,0.590s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:26,2022-07-28 08:10:26,0.659s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_31""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:26,2022-07-28 08:10:27,0.637s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Cek Kesehatan"")",Chrome 103.0.5060.134,,,2022-07-28 08:10:27,2022-07-28 08:10:28,0.908s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:28,2022-07-28 08:10:29,1.053s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:29,2022-07-28 08:10:30,0.911s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:30,2022-07-28 08:10:30,0.522s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_History""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:30,2022-07-28 08:10:31,1.025s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:31,2022-07-28 08:10:32,0.539s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:32,2022-07-28 08:10:33,1.509s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 08:10:33,2022-07-28 08:10:34,0.889s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 103.0.5060.134,,,2022-07-28 08:10:34,2022-07-28 08:10:46,11.216s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-07-28 08:10:35,2022-07-28 08:10:37,1.937s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 103.0.5060.134,,,2022-07-28 08:10:37,2022-07-28 08:10:40,3.533s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:40,2022-07-28 08:10:41,1.097s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), ""John Doe"")",Chrome 103.0.5060.134,,,2022-07-28 08:10:41,2022-07-28 08:10:42,0.970s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), ""ThisIsNotAPassword"")",Chrome 103.0.5060.134,,,2022-07-28 08:10:42,2022-07-28 08:10:43,1.022s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Chrome 103.0.5060.134,,,2022-07-28 08:10:43,2022-07-28 08:10:45,1.318s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 08:10:45,2022-07-28 08:10:46,0.782s,PASSED
